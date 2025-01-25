@@ -2,13 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #f4f4f4, #ddd);
     text-align: center;
 }
 header {
-    background-color: #333;
+    background: linear-gradient(to right, #333, #555);
     color: white;
     padding: 10px;
+    transition: background 0.3s ease-in-out;
+}
+header:hover {
+    background: linear-gradient(to right, #222, #444);
 }
 nav ul {
     list-style: none;
@@ -21,15 +25,32 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+nav ul li a:hover {
+    color: yellow;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
 main {
     padding: 20px;
 }
+section h2 {
+    transition: transform 0.3s ease-in-out;
+}
+section h2:hover {
+    transform: scale(1.05);
+}
 footer {
-    background-color: #333;
+    background: linear-gradient(to right, #333, #555);
     color: white;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    transition: background 0.3s ease-in-out;
+}
+footer:hover {
+    background: linear-gradient(to right, #222, #444);
 }
