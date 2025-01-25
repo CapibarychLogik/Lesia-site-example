@@ -1,0 +1,29 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Леся Українка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Леся Українка</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="biography.html">Біографія</a></li>
+                <li><a href="works.html">Творчість</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Вітаємо на сайті про Лесю Українку</h2>
+            <p>Дізнайтесь більше про життя та творчість великої української поетеси.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Всі права захищені.</p>
+    </footer>
+</body>
+</html>
